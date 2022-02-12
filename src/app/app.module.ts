@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ProfileComponent } from './profile/profile.component';
 import { GitDirective } from './git.directive';
+import { GitPipe } from './git.pipe';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { GitDirective } from './git.directive';
     AboutComponent,
     ProfileComponent,
     GitDirective,
+    GitPipe,
     
   ],
   imports: [
