@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ProfileComponent } from './profile/profile.component';
+import { GitDirective } from './git.directive';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { ProfileComponent } from './profile/profile.component';
     AppComponent,
     AboutComponent,
     ProfileComponent,
+    GitDirective,
     
   ],
   imports: [
