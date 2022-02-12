@@ -5,7 +5,10 @@ import { AboutComponent } from './about/about.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [  
+  { path: 'profile', component: ProfileComponent},
+  { path: 'about', component: AboutComponent},
+  { path: 'landing-page', component: LandingPageComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
