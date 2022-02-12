@@ -14,6 +14,7 @@ import { GitPipe } from './git.pipe';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     GitDirective,
     GitPipe,
     LandingPageComponent,
+    NavbarComponent,
     
     
   ],
