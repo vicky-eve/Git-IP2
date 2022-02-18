@@ -17,7 +17,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Set up instructions and installation
 
  clone this repository https://github.com/vicky-eve/Git-IP2
- open terminal to work in Your-Quote directory
+ open terminal to work in Git directory
 
 ## Development
 
